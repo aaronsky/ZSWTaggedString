@@ -2,6 +2,7 @@
 .DS_Store
 
 # Xcode
+.build/
 build/
 *.pbxuser
 !default.pbxuser
@@ -18,6 +19,10 @@ profile
 DerivedData
 *.hmap
 *.ipa
+
+# VSCode
+.vscode/settings.json
+.vscode/launch.json
 
 # Bundler
 .bundle

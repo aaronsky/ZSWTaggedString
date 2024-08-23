@@ -6,6 +6,8 @@
 //
 //
 
+import ZSWTaggedString
+
 extension ZSWTaggedString {
     public convenience init(format: String, _ arguments: CVarArg...) {
         let string = String(format: format, arguments: arguments)

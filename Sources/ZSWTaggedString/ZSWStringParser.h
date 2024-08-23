@@ -10,9 +10,9 @@
  * @private
  */
 
-#import <ZSWTaggedString/ZSWTaggedString.h>
-#import <ZSWTaggedString/ZSWTaggedStringOptions.h>
-#import <ZSWTaggedString/ZSWTaggedStringAttribute.h>
+#import "ZSWTaggedString.h"
+#import "ZSWTaggedStringOptions.h"
+#import "ZSWTaggedStringAttribute.h"
 
 #define ZSWSelector(selectorName) (NSStringFromSelector(@selector(selectorName)))
 

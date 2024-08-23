@@ -6,8 +6,8 @@
 //
 //
 
-#import <ZSWTaggedString/ZSWTaggedStringAttribute.h>
-#import <ZSWTaggedString/ZSWStringParserTag.h>
+#import "ZSWTaggedStringAttribute.h"
+#import "ZSWStringParserTag.h"
 
 @implementation ZSWTaggedStringAttribute
 @synthesize staticDictionary = _staticDictionary;

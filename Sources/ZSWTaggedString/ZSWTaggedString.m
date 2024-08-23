@@ -6,10 +6,10 @@
 //
 //
 
-#import <ZSWTaggedString/ZSWTaggedString.h>
-#import <ZSWTaggedString/ZSWStringParser.h>
-#import <ZSWTaggedString/ZSWTaggedStringOptions.h>
-#import <ZSWTaggedString/ZSWTaggedString_Private.h>
+#import "ZSWTaggedString.h"
+#import "ZSWTaggedStringOptions.h"
+#import "ZSWStringParser.h"
+#import "ZSWTaggedString_Private.h"
 
 NSString *const ZSWTaggedStringErrorDomain = @"ZSWTaggedStringErrorDomain";
 

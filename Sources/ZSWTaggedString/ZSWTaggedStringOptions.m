@@ -6,11 +6,10 @@
 //
 //
 
-#import <ZSWTaggedString/ZSWTaggedStringOptions.h>
-#import <ZSWTaggedString/ZSWStringParser.h>
-#import <ZSWTaggedString/ZSWStringParserTag.h>
-
-#import <ZSWTaggedString/ZSWTaggedString_Private.h>
+#import "ZSWTaggedStringOptions.h"
+#import "ZSWStringParser.h"
+#import "ZSWStringParserTag.h"
+#import "ZSWTaggedString_Private.h"
 
 @implementation ZSWTaggedStringOptions
 

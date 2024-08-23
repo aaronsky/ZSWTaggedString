@@ -1,0 +1,15 @@
+module ZSWTaggedString {
+    header "ZSWTaggedString.h"
+    header "ZSWTaggedStringOptions.h"
+
+    export *
+
+    explicit module Private {
+        header "../ZSWStringParser.h"
+        header "../ZSWStringParserTag.h"
+        header "../ZSWTaggedString_Private.h"
+        header "../ZSWTaggedStringAttribute.h"
+
+        export *
+    }
+}
